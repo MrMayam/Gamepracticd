@@ -37,7 +37,7 @@ function setMole() {
     }
 
     let mole = document.createElement("img");
-    mole.src = "./assets/esau.jpg";
+    mole.src = "./assets/caucasoid.png";
 
     let num = getRandomTile();
     if (currPlantTile && currPlantTile.id == num) {
@@ -57,7 +57,7 @@ function setPlant() {
     }
 
  let plant = document.createElement("img");
- plant.src = "./assets/realjew.jpeg";  
+ plant.src = "./assets/christ.png";  
 
 let num = getRandomTile();
 if (currMoleTile && currMoleTile.id == num) {
